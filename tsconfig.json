@@ -19,8 +19,11 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
+    "baseUrl": ".",
     "paths": {
-      "react": ["./node_modules/@type/react"]
+      "react": ["./node_modules/@type/react"],
+      "@/*": ["./src/*"],
+      "@public/*": ["./src/assets/*"]
     }
   },
   "include": ["src"],

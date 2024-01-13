@@ -12,6 +12,10 @@ export default defineConfig({
         find: "@",
         replacement: resolve(__dirname, "./src"),
       },
+      {
+        find: "@public",
+        replacement: resolve(__dirname, "./src/assets"),
+      },
     ],
   },
   css: {
