@@ -1,11 +1,11 @@
 import { PageContainer } from "@ant-design/pro-components";
 import { Card } from "antd";
 
-export default function Home() {
+export default function One() {
   return (
     <PageContainer>
       <Card>
-        <div>首页</div>
+        <div>一级</div>
       </Card>
     </PageContainer>
   );
