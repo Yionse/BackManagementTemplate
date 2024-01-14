@@ -37,9 +37,7 @@ export default (Props: any) => {
             {dom}
           </div>
         )}
-      >
-        <PageContainer>{Props.children}</PageContainer>
-      </ProLayout>
+      ></ProLayout>
     </div>
   );
 };
