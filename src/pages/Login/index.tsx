@@ -26,7 +26,7 @@ export default function Login() {
           onFinish={() => {
             const { username, code } = form.getFieldsValue();
             if (username === "123@qq.com" && code === "123123") {
-              navigate("/home");
+              navigate("/home/index");
             } else {
               message.error("验证错误");
             }
